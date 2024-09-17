@@ -1,4 +1,5 @@
 import streamlit as st
 
 st.title("🎈 Dulcie's App")
-st.write("hi")
+name = st.text_input("Please enter your name")
+st.write("hi", name)
